@@ -1,0 +1,84 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="../assets/stylesheets/w3lightbox.css" />
+</head>
+<body>
+  
+</body>
+</html>
+<!-- Images used to open the lightbox -->
+<div class="row">
+  <div class="column">
+    <img src="../assets/images/1.jpeg" onclick="openModal();currentSlide(1)" class="hover-shadow" style="width: 300px;">
+  </div>
+  <div class="column">
+    <img src="../assets/images/2.jpeg" onclick="openModal();currentSlide(2)" class="hover-shadow" style="width: 300px;">
+  </div>
+  <div class="column">
+    <img src="../assets/images/3.jpeg" onclick="openModal();currentSlide(3)" class="hover-shadow" style="width: 300px;">
+  </div>
+  <div class="column">
+    <img src="../assets/images/4.jpeg" onclick="openModal();currentSlide(4)" class="hover-shadow" style="width: 300px;">
+  </div>
+</div>
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="../assets/images/1-wide.jpeg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="img2_wide.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="../assets/images/3-150.jpeg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="3-150.jpeg" style="width:100%">
+    </div>
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <!-- Thumbnail image controls -->
+    <div class="column">
+      <img class="demo" src="1.jpeg" onclick="currentSlide(1)" alt="Nature">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="2.jpeg" onclick="currentSlide(2)" alt="Snow">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="3.jpeg" onclick="currentSlide(3)" alt="Mountains">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="4.jpeg" onclick="currentSlide(4)" alt="Lights">
+    </div>
+  </div>
+</div>
+
+  <script type="text/JavaScript" src="../assets/javascripts/w3-lightbox.js"></script>
+</body>
+</html>
