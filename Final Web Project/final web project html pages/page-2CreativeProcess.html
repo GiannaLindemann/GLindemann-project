@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)http://127.0.0.1:5500/page-2.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <link rel="stylesheet" href=".">
+  <link rel="stylesheet" type="text/css" href="."> -->
+  <link rel="stylesheet" href="../assets/stylesheets/CSS-basic-font-face.css">
+  <title>Images &amp; Text</title>
+
+  <style>    
+    * {
+        box-sizing: border-box;
+      }
+      body {
+        color: #777777;
+        font-size: 16px;
+        font-family: sans-serif;
+      }
+  
+      .logo {
+        width: 50px;        /* by default, align to the left */
+        display: block;     /* center */
+        margin-left: auto;  /* center */
+        margin-right: auto; /* center */
+      }
+      
+      nav > div > ul {
+        list-style: none;
+      }
+  
+      a {
+        color: #777777;
+        text-decoration: none;
+        display: inline-block;
+        padding: 20px 20px 5px 20px;
+        border-bottom: 1px solid #339999;
+      }
+  
+      a:hover {
+        color: #ffffff;
+        cursor: grab;
+        background-color: #339999;
+      }
+  
+      .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 0;
+        margin: 0;
+      }
+  
+      ul {
+list-style: none;
+  }
+  
+      @media screen and (max-width: 500px) {
+        .logo {
+          width: 30px;
+        }
+  
+        nav > div.horizontal-nav {
+          display: none;
+          /* hide the nav bar in small screen size */
+        }
+  
+        nav {
+          /* padding: top right bottom left */
+          padding: 50px 0px 0px 0px;
+        }
+  
+        
+      }
+
+</style>
+<style>
+  table#your-table-items {
+      border-collapse: collapse;
+      /* in inspector mode - easier to see the difference between collapse and no collapse */
+      border: 1px solid rgba(154, 154, 154, 0.75);
+      text-align: center;
+    }
+
+    table#your-table-items th:nth-child(1),
+    table#your-table-items td:nth-child(1) {
+      width: 35%;
+    }
+
+    table#your-table-items th:nth-child(2),
+    table#your-table-items td:nth-child(2) {
+      width: 30%;
+    }
+
+    table#your-table-items th:nth-child(3),
+    table#your-table-items td:nth-child(3) {
+      width: 20%;
+    }
+
+    table#your-table-items th:nth-child(4),
+    table#your-table-items td:nth-child(4) {
+      width: 15%;
+    }
+
+    table#your-table-items thead {
+      font-size: 0.7em;
+      text-transform: uppercase;
+    }
+
+    table#your-table-items thead th {
+      color: #fff;
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 8px;
+    }
+
+    table#your-table-items thead th:hover {
+      color: #fff;
+      background-color: #339999;
+      cursor: pointer;
+    }
+
+    table#your-table-items thead th.tablesorter-headerAsc,
+    table#your-table-items thead th.tablesorter-headerDesc {
+      background-color: rgba(0, 102, 102, 0.8);
+    }
+
+    table#your-table-items tbody {
+      font-size: 0.9em;
+      line-height: 15px;
+    }
+
+    /*** make sure table#your-table-items tbody tr:nth-child(even) defined before table#your-table-items tbody tr:hover */
+    /*** otherwise, it would need to define table#your-table-items tbody tr:nth-child(even):hover*/
+    table#your-table-items tbody tr:nth-child(even) {
+      background: rgba(154, 154, 154, 0.25);
+    }
+
+    table#your-table-items tbody tr:hover {
+      color: #fff;
+      background-color: #339999;
+    }
+
+    table#your-table-items tbody td {
+      padding: 8px 20px;
+      border-top: 1px solid rgba(154, 154, 154, 0.75);
+      border-right: 1px solid rgba(154, 154, 154, 0.75);
+    }
+
+    table#your-table-items tbody td img {
+      width: 100px;
+      margin: 0 10px 0 0;
+      border: 1px solid rgba(154, 154, 154, 0.75);
+    }
+</style>
+
+
+<div class="background">
+</div>
+  
+</head>
+<body>
+  <img class="logo" src="../assets/images/birdmancollage.jpeg" alt="birdmancollage"/>
+    <nav>
+      <div class="horizontal-nav">
+    </nav>
+              <ul class="flex-container">
+                <li>
+                  <a href="homepage.html">Home</a>
+                </li>
+                <li class="active-page">
+                  <a href="page-2CreativeProcess.html">The Creative Process</a>
+                </li>
+                <li>
+                  <a href="page-3SuppliesTable&Carousel.html">Projects & Supply Lists</a>
+                </li>
+                <li>
+                  <a href="page-4GradeLevelTable.html">Grade Level Artistic Development</a>
+                </li>
+                <li>
+                  <a href="page-5Youtube.html">Video Tutorials</a>
+                </li>
+                <li>
+                  <a href="page-6Gallery.html">Student Work</a>
+                </li>
+              </ul>
+      </div>
+      
+      <h1 style="font-size: 100px; color:cornflowerblue; padding-left: 0px; padding-right: 0px; text-align: center">The Creative Process</h1>
+
+      <h3 style="font-family: cursive" id="Making sense of the world">Making Sense of the World</h3>
+      <p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+
+          Creating art is about exploring new ideas, images, and creations. 
+          Art practices can be used to make sense of the outside world including nature and community and global events. 
+          We can learn about nature through observational painting and drawing as well as creating with collected leaves and flowers.
+          Drawing animals can be a great way to add a visual element to processing and retaining scientific information.
+          Through art we can express human conditions and work through experiences such as 
+          love, loneliness, isolation, relationships, uncertainty, sadness, pride, togetherness, and joy. For non verbal people and those 
+          who struggle to express feelings through words, art can provide relief, solace and a space for processing.
+
+      </p>
+      <h3 style="font-family:cursive;"
+          id="Moving Through Trauma">Moving Through Trauma</h3>
+      <p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+   
+        For many, creating with our hands and expressing ideas on a paper can be easier than formulating written or spoken words. 
+        Art therapy is a proven method for healing trauma. While making art we are able to tap into our mind body connection and
+        strengthen connection between our physical and mental experiences.
+        <img style="float: left; max-width: 300px; padding-right: 20px; padding-bottom: 10px; padding-top: 20px;"
+        src="../assets/images/aliencollage.jpeg" alt="alien collage" />
+        It can also be used to develop self confidence and identity. 
+        Each individual has a unique approach to art making, and there are no wrong answers. 
+        Art can be messy and frustrating but that is part of its valuable complexity. 
+      </p>
+      <h3 style="font-family:cursive" 
+          id="Self Expression &amp; Acceptance">Self Expression &amp; Acceptance</h3>
+      <p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"> 
+        When people are first approaching a project they may be worried they don't have the technical skills 
+        or creative ideas required to execute a respectable result. 
+        The thing is---- they will never develop those skills and ideas if they don't practice! 
+        Art is all about diving in- brainstorming, trying a variety of approaches. 
+        As the late Bob Ross said, “There are no mistakes in art. Only happy accidents.” 
+        Unintentional marks, strokes and shapes happen in art all the time. 
+        You may come to the conclusion that a piece is not bringing you joy anymore or you want to restart in a different way, 
+        but I always encourage my students to look at accidental lines and see what they can become. 
+        And a bonus is that when you're painting you can just add another layer!
+      </p>
+
+      <div class="to-top"><a href="#">Top</a></div>
+    
+
+</body>
+</html>
